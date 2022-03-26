@@ -1,0 +1,146 @@
+
+@import url("https://fonts.google.com/specimen/Red+Hat+Display");
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.container {
+    width: 1440px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 150px;
+    background-color: #E0E8FF;
+}
+
+.container img {
+    width: 75.6%;
+    height: 60%;
+    position:absolute;
+    top: 0;
+}
+
+.container .main {
+    width: 450px;
+    height: 686px;
+    position: relative;
+    z-index: 999;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    background-color: #FFFFFF;
+}
+
+.container .main img {
+    width: 100%;
+    height: 225px;
+    border-radius: 20px 20px 0 0;
+    -webkit-border-radius: 20px 20px 0 0;
+    -moz-border-radius: 20px 20px 0 0;
+    -ms-border-radius: 20px 20px 0 0;
+    -o-border-radius: 20px 20px 0 0;
+}
+
+.container .main2 {
+    width: 100%;
+    height: calc(700px - 225px);
+    position: absolute;
+    top: 225px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.container .main2 p {
+    font-size: 30px;
+    font-weight: 799;
+    color: rgba(28, 44, 77,0.9);
+}
+
+.container .main2 .details {
+    padding: 15px 82px ;
+    color: #949AA9;
+    word-break: break-all;
+    line-height: 1.4;
+    text-align: center;
+}
+
+.container .container-plan{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .container-plan img {
+    width: 45px;
+    height: 45px;
+    position: relative;
+    padding-right: 20px;
+    }
+
+.container .container-plan .plan {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column; 
+    line-height: 1.6;
+}
+
+.container .container-plan .plan p {
+    font-size: 16px ;
+}
+.container .container-plan .plan .span {
+    color: #949AA9;
+}
+
+.container .container-plan a {
+    margin-left: 90px;
+    color: #392DF5;
+    font-size: 14px;
+}
+
+.container .button-form {
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    top: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: -20px;
+}
+
+.container .button-form button {
+    width: 365px;
+    height: 45px ;
+    background-color: #382AE1;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+    display: inline-block;
+    font-size: 16px;
+    padding: 15px 32px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    font-family: 'Red Hat Display', sans-serif;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.container .button-form .cancel {
+    padding-top: 40px;
+    text-decoration: none;
+    color: #858EB2;
+}
