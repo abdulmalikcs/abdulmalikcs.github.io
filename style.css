@@ -207,7 +207,8 @@
     }
 
     .container .main2 .details {
-        padding: 10px 20px;
+        padding: 10px 11px ;
+        font-size: 15px;
     }
     .container .container-plan .plan p {
         font-size: 14px;
