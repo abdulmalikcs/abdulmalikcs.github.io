@@ -144,9 +144,3 @@
     text-decoration: none;
     color: #858EB2;
 }
-
-@media (max-width : 1000px) {
-    .container {
-        height: 1000px;
-    }
-}
