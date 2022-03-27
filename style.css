@@ -226,4 +226,8 @@
     .container .button-form .cancel {
         padding-top: 15px;
     }
+
+    .container .main .img2 {
+        width: 100%;
+    }
 }
