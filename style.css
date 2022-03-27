@@ -49,7 +49,7 @@
 
 .container .main2 {
     width: 100%;
-    height: calc(700px - 225px);
+    height: auto;
     position: absolute;
     top: 225px;
     display: flex;
