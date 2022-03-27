@@ -194,3 +194,36 @@
         margin-top: -60px;
     }
 }
+
+@media (max-width: 350px) and (max-height : 500px){
+    .container .main { 
+        width: 290px;
+    }
+    .container .main img {
+        height: 25%;
+    }
+    .container .main2 { 
+        margin-top: -120px  ;
+    }
+
+    .container .main2 .details {
+        padding: 10px 20px;
+    }
+    .container .container-plan .plan p {
+        font-size: 14px;
+    }
+    .container .container-plan a {
+        margin-left: 45px;
+    }
+    .container .container-plan {
+        height: 45%;
+    }
+
+    .container .button-form {
+        top: 120px;
+    }
+
+    .container .button-form .cancel {
+        padding-top: 15px;
+    }
+}
