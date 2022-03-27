@@ -34,6 +34,7 @@
     -ms-border-radius: 20px;
     -o-border-radius: 20px;
     background-color: #FFFFFF;
+    display: flex;
 }
 
 .container .main img {
@@ -146,9 +147,9 @@
 }
 
 
-@media (min-width: 375px) and (max-width: 767px) {
+@media (max-width :600px) {
     .container .main {
-        width: 325px;
+        width: 350px;
     }
 
     .container .button-form button {
@@ -162,4 +163,28 @@
 }
 
 
+@media (max-height:670px) {
+    .container{
+        height: 100vh;
+    }
+    .container .main {
+        height: 85%;
+        position: absolute;
+        top: 50px;
+    }
 
+    .container .main img {
+        height: 30%
+    }
+
+    .container .main2 {
+        margin-top: -30px;
+    }
+
+    .container .main2 .img {
+        height: 45px;
+    }
+    .container .button-form {
+        top: 185px;
+    }
+}
