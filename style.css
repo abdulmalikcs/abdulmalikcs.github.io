@@ -163,7 +163,7 @@
 }
 
 
-@media (max-height:670px) {
+@media (max-height:671px){
     .container{
         height: 100vh;
     }
@@ -186,5 +186,11 @@
     }
     .container .button-form {
         top: 185px;
+    }
+}
+
+@media (min-height : 376px) and (max-height:630px){
+    .container .main2 {
+        margin-top: -60px;
     }
 }
